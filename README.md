@@ -9,8 +9,8 @@ By: Platzi
 
 1. [Introduccion](./01%20Introduccion/)
     1. [Instalaciones](./01%20Introduccion/Instalaciones.md)
-    2. [VSCode](./01%20Introduccion/)
-    3. [Git y Github](./01%20Introduccion/)
+    2. [VSCode](./01%20Introduccion/VSCode.md)
+    3. [Git y Github](./01%20Introduccion/Git%20y%20Github.md)
     4. [Flujo de Trabajo](./01%20Introduccion/)
 2. [PIP y Entornos Virtuales](./02%20PIP%20y%20Entornos%20Virtuales/)
     1. [¿Qué es pip?](./02%20PIP%20y%20Entornos%20Virtuales/)
