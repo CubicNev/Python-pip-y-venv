@@ -8,7 +8,7 @@ By: Platzi
 ## Contents
 
 1. [Introduccion](./01%20Introduccion/)
-    1. [Instalaciones](./01%20Introduccion/)
+    1. [Instalaciones](./01%20Introduccion/Instalaciones.md)
     2. [VSCode](./01%20Introduccion/)
     3. [Git y Github](./01%20Introduccion/)
     4. [Flujo de Trabajo](./01%20Introduccion/)

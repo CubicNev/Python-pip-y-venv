@@ -96,3 +96,31 @@ Los paquetes que se están importando sirven para proporcionar herramientas y fu
 - **ibffi-dev** ➡️ es el desarrollo de la biblioteca libffi, que permite a las aplicaciones invocar funciones de otros programas en tiempo de ejecución
 
 - **python3-dev** ➡️ es el paquete de desarrollo de Python 3, que incluye los archivos de cabecera y otras herramientas necesarias para compilar módulos y aplicaciones de Python
+
+## Python en Mac
+
+Como siempre, se comprueba que este instalado con `python`
+
+```sh
+python
+>>> exit()
+```
+
+Normalmente viene instalado en Mac, en caso de que no lo tenga continuar con estos comandos Herramientas de codigo
+
+```sh
+sudo xcode-select --install
+sudo xcode-select --reset
+```
+
+Una vez instaladas las herramientas de código, se instala python 3
+
+```sh
+brew install python3
+```
+
+Finalmente se verifica la instalación
+
+```sh
+python3
+```
