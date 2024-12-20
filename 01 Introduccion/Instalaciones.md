@@ -106,7 +106,7 @@ python
 >>> exit()
 ```
 
-Normalmente viene instalado en Mac, en caso de que no lo tenga continuar con estos comandos Herramientas de codigo
+Normalmente viene instalado en Mac, en caso de que no lo tenga se usan estos comandos que instalan las Herramientas de codigo necesarias para usar python
 
 ```sh
 sudo xcode-select --install
