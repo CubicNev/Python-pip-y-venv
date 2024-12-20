@@ -14,7 +14,7 @@ By: Platzi
     4. [Flujo de Trabajo](./01%20Introduccion/Flujo%20de%20trabajo.md)
 2. [PIP y Entornos Virtuales](./02%20PIP%20y%20Entornos%20Virtuales/)
     1. [¿Qué es pip?](./02%20PIP%20y%20Entornos%20Virtuales/pip.md)
-    2. [Gráficas en Python con PIP](./02%20PIP%20y%20Entornos%20Virtuales/)
+    2. [Gráficas en Python con PIP](./02%20PIP%20y%20Entornos%20Virtuales/04-app/readme.md)
     3. [¿Qué es un ambiente virtual? (venv)](./02%20PIP%20y%20Entornos%20Virtuales/)
     4. [Usando entornos virtuales](./02%20PIP%20y%20Entornos%20Virtuales/)
     5. [Archivos de requerimientos](./02%20PIP%20y%20Entornos%20Virtuales/)
