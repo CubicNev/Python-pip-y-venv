@@ -25,3 +25,68 @@ Los **entornos virtuales** son una forma de crear un sistema operativo virtual d
 - Ofrecen una forma conveniente y segura de utilizar diferentes aplicaciones y tecnologías en un mismo equipo
 
 > 📝 **Nota:** En resumen, los entornos virtuales ofrecen una forma conveniente y segura 🔒 de utilizar diferentes aplicaciones y tecnologías en un mismo equipo, lo que puede ser muy útil para muchos usuarios y situaciones diferentes
+
+## Creando entornos virtuales en Python
+
+Primero se debe ver dónde se esta ejecutando Python, la ubicación del archivo binario se puede ver con el comando `which`
+
+```sh
+which python3
+/usr/bin/python3
+```
+
+Al estar en Linux o WSL tenemos que intalar un paquete extra
+
+```sh
+sudo apt install -y python3-venv
+```
+
+> 📝 **Nota:** "*venv*" significa *virtual enviroment*
+
+Una vez instalado, se puede crear un ambiente para cada proyecto, para esto se debe entrar a la carpeta del proyecto e ingresar el siguiente comando
+
+```sh
+python3 -m venv <Nombre del ambiente virtual>
+```
+
+> 📝 **Nota:** Normalmente se nombra el ambiente virtual como "*env*"
+
+Para activar el ambiente se ingresa lo siguiente
+
+```sh
+source <Nombre del ambiente virtual>/bin/activate
+```
+
+Para desactivar se hace
+
+```sh
+deactivate
+```
+
+Una vez que se activa el ambiente virtual podemos instalar las librerias necesarias en el ambiente virtual, por ejemplo:
+
+```sh
+pip3 install matplotlib==3.5.0
+```
+
+## Archivo de requerimientos
+
+Archivo que gestiona todas las dependencias y en que versiones se necesitan.
+
+Generar el archivo con el siguiente comando
+
+```sh
+pip3 freeze > requirements.txt
+```
+
+Revisar lo que hay dentro del archivo
+
+```sh
+cat requirements.txt
+```
+
+Instalar las dependencias necesarias para contribuir más rápido en proyectos
+
+```sh
+pip3 install -r requirements.txt
+```

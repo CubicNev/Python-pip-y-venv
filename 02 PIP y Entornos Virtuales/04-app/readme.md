@@ -7,12 +7,31 @@ A partir de la información de [`data.csv`](./data.csv). Gráficar la informaci�
 - Seleccionar solo la información poblacional, ignorando todo lo demás.
 - Permitir ver el crecimiento poblacional del país a traves de los años con un **Bar Chart**
 
-## Dependencias
+## Configuración de ambeinte de desarrollo
 
-Se usa unicamente **matplotlib**, para instalar se uso:
+**Paso 1**: Inicializar un ambiente virtual dentro del proyecto
 
 ```sh
-pip3 install matplotlib
+cd "02 PIP y Entornos Virtuales/04-app"
+python3 -m venv <Nombre del ambiente virtual>
+```
+
+> 📝 **Nota:** Se recomienda nombrar el ambiente virtual como **env**
+
+```sh
+python3 -m venv env
+```
+
+**Paso 2**: Activar el ambiente virtual
+
+```sh
+source env/bin/activate
+```
+
+**Paso 3**: Instalar dependencias
+
+```sh
+pip3 install -r requirements.txt
 ```
 
 ## Ejecución
