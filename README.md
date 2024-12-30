@@ -18,7 +18,7 @@ By: Platzi
     3. [¿Qué es un ambiente virtual? (venv)](./02%20PIP%20y%20Entornos%20Virtuales/Ambientes%20Virtuales.md)
     4. [Archivos de requerimientos](./02%20PIP%20y%20Entornos%20Virtuales/Ambientes%20Virtuales.md)
 3. [Práctica](./03%20Práctica/)
-    1. [Solicitudes HTTP con Requests](./03%20Práctica/)
+    1. [Solicitudes HTTP con Requests](./03%20Práctica/httprequests.md)
     2. [Pandas](./03%20Práctica/)
     3. [Python para Backend: web server con FastAPI](./03%20Práctica/)
 4. [Python en contenedores de Docker](./04%20Python%20en%20contenedores%20de%20Docker/)

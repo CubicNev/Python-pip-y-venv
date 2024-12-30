@@ -1,4 +1,4 @@
-# Proyecto final del curso: Gráficar la población de un país
+# Gráficar la población de un país
 
 [◀️](./../../README.md)
 
