@@ -90,3 +90,17 @@ Instalar las dependencias necesarias para contribuir más rápido en proyectos
 ```sh
 pip3 install -r requirements.txt
 ```
+
+## Hacks
+
+Cree estos alias para ayudar con el manejo de ambientes virtuales
+
+```sh
+# Python venv
+alias cvenv='python3 -m venv venv'
+alias onvenv='source venv/bin/activate'
+alias offvenv='deactivate'
+# Ambientes virtuales con otro nombre
+alias onmyvenv='function _activate_env(){ source "$1/bin/activate" && echo "Activado"; }; _activate_env'
+alias mkvenv='function _mkvenv(){ python3 -m venv "$1" && echo "Entorno virtual '$1' creado exitosamente"; }; _mkvenv'
+```
