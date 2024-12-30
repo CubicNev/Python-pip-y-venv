@@ -11,7 +11,7 @@ cd "02 PIP y Entornos Virtuales/04-app"
 python3 -m venv <Nombre del ambiente virtual>
 ```
 
-> 📝 **Nota:** Se recomienda nombrar el ambiente virtual como **env**
+> 📝 **Nota:** Se recomienda nombrar el ambiente virtual como **venv**
 
 ```sh
 python3 -m venv venv
