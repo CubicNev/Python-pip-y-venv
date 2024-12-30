@@ -7,7 +7,7 @@ A partir de la información de [`data.csv`](./data.csv). Gráficar la informaci�
 - Seleccionar solo la información poblacional, ignorando todo lo demás.
 - Permitir ver el crecimiento poblacional del país a traves de los años con un **Bar Chart**
 
-## Configuración de ambeinte de desarrollo
+## Configuración de ambiente de desarrollo
 
 **Paso 1**: Inicializar un ambiente virtual dentro del proyecto
 

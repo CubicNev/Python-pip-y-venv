@@ -2,7 +2,7 @@
 
 [◀️](./../../README.md)
 
-## Configuración de ambeinte de desarrollo
+## Configuración de ambiente de desarrollo
 
 **Paso 1**: Inicializar un ambiente virtual dentro del proyecto
 
