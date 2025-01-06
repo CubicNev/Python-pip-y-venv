@@ -27,6 +27,11 @@ By: Platzi
     3. [Docker para el día a día](./04%20Python%20en%20contenedores%20de%20Docker/)
     4. [Dockerizando web services](./04%20Python%20en%20contenedores%20de%20Docker/)
 
+## Requeriments
+
+### SO
+
+- 
 ## Brief Introduction
 
 El objetivo de este curso es trabajar con Python en un entorno profesional. Para esto se ve un breve repaso de algunos comandos que se pueden hacer en una terminal (con base Unix)

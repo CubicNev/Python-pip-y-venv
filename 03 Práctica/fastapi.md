@@ -4,7 +4,7 @@ Es una librería para crear servicios web.
 
 ## Instalación
 
-Para usar esta libría primero debe instalarse el módulo de python dentro de un entono virtual. [1]
+Para usar esta librería primero debe instalarse el módulo de python dentro de un entono virtual. [1]
 
 ```sh
 # Crear entorno virtual

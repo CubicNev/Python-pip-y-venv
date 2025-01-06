@@ -63,7 +63,7 @@ En Python se usa la librería `requests` para hacer peticiones a servidores web 
 ]
 ```
 
-Se hace un request desde python hatsa este ENDPOINT o recurso que regresa una resuesta en `json`, que tiene un formato similar a una lista de diccionarios. En este caso, cada elemento representa una categoría de un comercio en línea. [1]
+Se hace un request desde python hasta este ENDPOINT o recurso que regresa una resuesta en `json`, que tiene un formato similar a una lista de diccionarios. En este caso, cada elemento representa una categoría de un comercio en línea. [1]
 
 ## Módulo `requests`
 
@@ -76,6 +76,8 @@ pip install requests
 ```
 
 ### Ejemplo de uso
+
+Este ejemplo se implemento en [05-web-server](./05-web-server/)
 
 ```python
 import requests
