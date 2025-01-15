@@ -20,7 +20,7 @@ By: Platzi
 3. [Práctica](./03%20Práctica/)
     1. [Solicitudes HTTP con Requests](./03%20Práctica/httprequests.md)
     2. [Pandas](./03%20Práctica/pandas.md)
-    3. [Python para Backend: web server con FastAPI](./03%20Práctica/)
+    3. [Python para Backend: web server con FastAPI](./03%20Práctica/fastapi.md)
 4. [Python en contenedores de Docker](./04%20Python%20en%20contenedores%20de%20Docker/)
     1. [¿Qué es Docker?](./04%20Python%20en%20contenedores%20de%20Docker/)
     2. [Instalacion de Docker](./04%20Python%20en%20contenedores%20de%20Docker/)

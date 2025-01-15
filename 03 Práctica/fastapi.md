@@ -21,6 +21,61 @@ python -m pip install --upgrade pip
 pip install "fastapi[standard]"
 ```
 
+## Importación
+
+Se debe importar el módulo **FastAPI** y hacer una instacia de una aplicación
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+```
+
+## Ejemplo de uso
+
+Para crear un recurso se hace con una función con un decorador.
+
+```python
+@app.get('/')
+def get_list():
+    return [1,2,3,4]
+```
+
+Dentro de los argumentos del get se ingresa la ruta desde la cual va a poder ingresar desde la web.
+
+## Ejecución
+
+El servidor se ejecuta con el comando (ejecutando en un ambiente virtual):
+
+```sh
+fastapi dev main.py
+```
+
+![Run FastAPI](./fastapi.png)
+
+Se puede ingresar a la IP y al puerto que nos muestra el log, en este caso se ingresa a *http://127.0.0.1:8000/* desde un navegador.
+
+> 📝 **Nota:** Para apagar el servidor se presiones `Ctrl` + `C`
+
+## Respuestas con HTML
+
+Así como se pueden retornar datos, se puede enviar HTML, se debe importar lo siguiente
+
+```python
+from fastapi.responses import HTMLResponse
+```
+
+De esta forma se puede tne run método que retorne HTML.
+
+```python
+@app.get('/contact/', response_class=HTMLResponse)
+def get_list():
+    return """
+        <h1>Hola!</h1>
+        <p>Bienvenido.</p>
+    """
+```
+
 <!-- Referencias -->
 
 [1]: <https://fastapi.tiangolo.com/#installation> "Instalación FastAPI"
