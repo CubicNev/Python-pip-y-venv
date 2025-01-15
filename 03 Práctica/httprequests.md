@@ -1,5 +1,7 @@
 # Solicitudes HTTP con Requests
 
+[◀️](./../README.md)
+
 En Python se usa la librería `requests` para hacer peticiones a servidores web desde Python. Se usa el ejemplo de [**Fake API**](https://fakeapi.platzi.com/), en el que podemos hacer peticiones como:
 
 ```json

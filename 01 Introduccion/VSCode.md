@@ -1,5 +1,7 @@
 # Python con VSCode
 
+[◀️](./../README.md)
+
 Se utilizan dos extensiones importantes:
 
 - Python de Microsoft con IntelliSense

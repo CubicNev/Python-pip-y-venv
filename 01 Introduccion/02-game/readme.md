@@ -1,5 +1,7 @@
 # Game Project
 
+[◀️](./../../README.md)
+
 Para correr el juego debes seguir las siguientes intrucciones en la temrinal:
 
 ```sh

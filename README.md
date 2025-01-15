@@ -31,7 +31,8 @@ By: Platzi
 
 ### SO
 
-- 
+Este proyecto curso se realizo en **WSL** con core **Ubuntu 22 LTS**, puede ejecutarse en **MacOS**. O cualquier otro sistema operativo que permita crear entornos virtuales y trabajar con Docker.
+
 ## Brief Introduction
 
 El objetivo de este curso es trabajar con Python en un entorno profesional. Para esto se ve un breve repaso de algunos comandos que se pueden hacer en una terminal (con base Unix)

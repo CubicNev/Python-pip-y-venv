@@ -1,5 +1,7 @@
 # ¿Qué es `pip`?
 
+[◀️](./../README.md)
+
 El ecosistema de python consiste en las principales librerias y frameworks que podemos usar para hacer nuestros proyectos. Todos los paquetes se pueden encontrar en el gestor de paquetes de python (*PIP*, *Package Installer for Pýthon*), la página para consultar todos los paquetes es *Python Package Index* (**PyPI** [1]), en ella se puede ver información de los paquetes como:
 
 - Última versión

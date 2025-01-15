@@ -1,5 +1,7 @@
 # Python con Git y Github
 
+[◀️](./../README.md)
+
 Creamos un proyecto, y lo unimos a un repositorio remoto para darle seguimiento a lo largo del curso. (Esto se ha hecho previamente)
 
 ## Repositorio remoto y enlazado

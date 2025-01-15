@@ -1,5 +1,7 @@
 # Instalaciones para el curso
 
+[◀️](./../README.md)
+
 ## Windows (WSL) y Linux
 
 Se buscará instalar python. Normalmente WSL y Linux ya tienen instalado python por defecto, se puede ver si esta instalado usando el comando `python`, o bien, el comando `python3`. *i.e.*
