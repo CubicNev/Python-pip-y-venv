@@ -7,7 +7,7 @@
 **Paso 1**: Inicializar un ambiente virtual dentro del proyecto
 
 ```sh
-cd "02 PIP y Entornos Virtuales/04-app"
+cd "03 Práctica/07-web-server"
 python3 -m venv <Nombre del ambiente virtual>
 ```
 
@@ -27,4 +27,10 @@ source venv/bin/activate
 
 ```sh
 pip3 install -r requirements.txt
+```
+
+## Ejecutar servicio
+
+```sh
+fastapi dev main.py
 ```
