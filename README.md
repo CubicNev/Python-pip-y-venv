@@ -24,8 +24,8 @@ By: Platzi
 4. [Python en contenedores de Docker](./04%20Docker/)
     1. [¿Qué es Docker?](./04%20Docker/docker.md)
     2. [Instalación de Docker](./04%20Docker/docker.md)
-    3. [Dockerizando scripts](./04%20Docker/)
-    4. [Dockerizando web services](./04%20Docker/)
+    3. [Dockerizando scripts](./04%20Docker/DockerScripts.md)
+    4. [Dockerizando web services](./04%20Docker/DockerWebService)
 
 ## Requeriments
 
