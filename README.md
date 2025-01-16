@@ -22,9 +22,9 @@ By: Platzi
     2. [Pandas](./03%20Práctica/pandas.md)
     3. [Python para Backend: web server con FastAPI](./03%20Práctica/fastapi.md)
 4. [Python en contenedores de Docker](./04%20Docker/)
-    1. [¿Qué es Docker?](./04%20Docker/)
-    2. [Instalacion de Docker](./04%20Docker/)
-    3. [Docker para el día a día](./04%20Docker/)
+    1. [¿Qué es Docker?](./04%20Docker/docker.md)
+    2. [Instalación de Docker](./04%20Docker/docker.md)
+    3. [Dockerizando scripts](./04%20Docker/)
     4. [Dockerizando web services](./04%20Docker/)
 
 ## Requeriments

@@ -20,7 +20,7 @@ def generate_pie_chart(labels, values):
     ax.pie(values, labels=labels)
     # Lo grafica de forma circular
     ax.axis('equal')
-    plt.savefig('pie.png')
+    plt.savefig('chart_pie_final_este_si.png')
 
 # Ejecución del módulo como script
 if __name__ == "__main__":
