@@ -125,7 +125,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-     - .:/app
+      - .:/app
 ```
 
 En `- .:/app` se da la instrucción:

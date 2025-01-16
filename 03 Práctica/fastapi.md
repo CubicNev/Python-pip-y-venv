@@ -57,6 +57,18 @@ Se puede ingresar a la IP y al puerto que nos muestra el log, en este caso se in
 
 > 📝 **Nota:** Para apagar el servidor se presiones `Ctrl` + `C`
 
+Tambíen se puede usar uvicorn para ejecutar el servicio.
+
+```sh
+uvicorn main:app --reload
+```
+
+Pero antes se debe instalar con
+
+```sh
+pip install "uvicorn[standard]"
+```
+
 ## Respuestas con HTML
 
 Así como se pueden retornar datos, se puede enviar HTML, se debe importar lo siguiente
