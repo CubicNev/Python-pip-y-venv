@@ -7,7 +7,7 @@
 **Paso 1**: Inicializar un ambiente virtual dentro del proyecto
 
 ```sh
-cd "02 PIP y Entornos Virtuales/04-app"
+cd "04 Docker/web-server"
 python3 -m venv <Nombre del ambiente virtual>
 ```
 
@@ -27,4 +27,18 @@ source venv/bin/activate
 
 ```sh
 pip3 install -r requirements.txt
+```
+
+## Ejecutar servicio
+
+### Opción 1
+
+```sh
+fastapi dev main.py
+```
+
+### Opción 2
+
+```sh
+uvicorn main:app --host 0.0.0.0 --port 80
 ```
